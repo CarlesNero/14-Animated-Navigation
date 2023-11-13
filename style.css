@@ -52,14 +52,15 @@ nav.active ul{
 }
 
 nav ul li{
-    transform: rotateY(0deg);
+    display: none;
     opacity: 0;
     transition: transform .6s linear, opacity .6s linear;
 }
 
 nav.active ul li{
+    display: flex;
     opacity: 1;
-    transform: rotateY(360deg);
+   
 }
 
 nav ul a{
